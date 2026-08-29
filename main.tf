@@ -4,3 +4,8 @@ resource "azurerm_resource_group" "rg1" {
     location=each.value
   
 }
+
+resource "azurerm_resource_group" "rg2" {
+    name="rg-kul"
+    location = "westus"
+}
