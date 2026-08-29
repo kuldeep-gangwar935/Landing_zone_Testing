@@ -5,7 +5,10 @@ resource "azurerm_resource_group" "rg1" {
   
 }
 
+
 resource "azurerm_resource_group" "rg2" {
-    name="rg-kuldeep"
-    location = "westus"
+
+    name="rg-dev"
+    location="westus"
+  
 }
