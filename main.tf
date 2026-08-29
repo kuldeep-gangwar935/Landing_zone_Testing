@@ -8,7 +8,14 @@ resource "azurerm_resource_group" "rg1" {
 
 resource "azurerm_resource_group" "rg2" {
 
-    name="rg-devlopement"
+    name="rg-dev"
+    location="westus"
+  
+}
+
+resource "azurerm_resource_group" "rg3" {
+
+    name="rg-production"
     location="westus"
   
 }
