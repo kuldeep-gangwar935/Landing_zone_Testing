@@ -8,4 +8,9 @@ rgname = {
         name="rg-prod2"
         location="westus"
     }
+
+     rg2={
+        name="rg-prod4"
+        location="westus"
+    }
 }
