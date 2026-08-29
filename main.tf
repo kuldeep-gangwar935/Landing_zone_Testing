@@ -12,3 +12,10 @@ resource "azurerm_resource_group" "rg2" {
     location="westus"
   
 }
+
+resource "azurerm_resource_group" "rg3" {
+
+    name="rg-prod"
+    location="westus"
+  
+}
