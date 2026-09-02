@@ -20,9 +20,3 @@ resource "azurerm_resource_group" "rg3" {
   
 }
 
-resource "azurerm_resource_group" "rg4" {
-
-    name="rg-test"
-    location="westus"
-  
-}
